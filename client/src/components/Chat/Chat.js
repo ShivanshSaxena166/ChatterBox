@@ -12,10 +12,13 @@ const Chat = ({location}) =>{
         socket = io(ENDPOINT)
        setName(name)
        setRoom(room)
+       socket.emit('join',{name,room}, ({error})=>{
+alert(error)
+       } )
         console.log(location.search)
         console.log(name,room)
         console.log(socket)
-    })
+    },[ENDPOINT,location.search])
     return (
         <h3>Chat</h3>
     )
