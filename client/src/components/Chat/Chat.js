@@ -25,6 +25,11 @@ return ()=>{
 }
 
     },[ENDPOINT,location.search])
+
+useEffect(()=>{
+    
+})
+
     return (
         <h3>Chat</h3>
     )
