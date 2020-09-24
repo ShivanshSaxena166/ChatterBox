@@ -38,11 +38,12 @@ callback()
 })
 socket.on('disconnect',()=>{
     const user = removeUser(socket.id)
-    io.to(user.room).emit('roomData',{room:user.room,users:getUsersInRoom(user.room)}) 
+ 
     console.log("user had left!!")
     if(user)
     {
         io.to(user.room).emit('message',{user:'admin',text:`${user.name} has left.`})
+        io.to(user.room).emit('roomData',{room:user.room,users:getUsersInRoom(user.room)}) 
     }
 })
 })
