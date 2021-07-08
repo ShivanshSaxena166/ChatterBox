@@ -8,7 +8,11 @@ const app = express()
 const PORT = process.env.PORT || 5000
 const router= require ('./router')
 const server = http.createServer(app)
-const io = socketio(server)
+const io = require('socket.io')(server, {
+    cors: {
+      origin: '*',
+    }
+});
 app.use(router)
 app.use(cors())
 io.on('connection',(socket)=>{
