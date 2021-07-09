@@ -3,6 +3,16 @@ A simple realtime chat app
 https://5f6db464b5ce678b8e5c6730--realtime-room-chat-app.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Brief Description
+ A webapp that allows people to join a room and communicate with each other via text and emoji.
+ ## Tech Stack 💻
+ 
+ **MERN** stack has been used for the development of this website. 
+ - [React.js](https://reactjs.org/)
+ - [Node.js](https://nodejs.org/en/)
+ - [Express.js](https://expressjs.com/)
+ - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+
 # Features
 
 1. Room Join
