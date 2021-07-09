@@ -3,6 +3,19 @@ A simple realtime chat app
 https://5f6db464b5ce678b8e5c6730--realtime-room-chat-app.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+
+1. Room Join
+
+![alt text](https://github.com/ShivanshSaxena166/Chat-App/blob/master/Images/Roomjoin.PNG)
+
+
+2. Chat
+
+![alt text](https://github.com/ShivanshSaxena166/Chat-App/blob/master/Images/Chat.PNG)
+
+
+
 
 ## Available Scripts
 
